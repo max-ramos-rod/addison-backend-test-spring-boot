@@ -10,17 +10,41 @@
 
 ## Estrutura do Projeto
 ```
-src/
-├── main/
-│ ├── java/
-│ │ └── com.addisonglobal/
-│ │ ├── AddisonApplication.java (ponto de entrada)
-│ │ ├── controller/TokenController.java (API REST)
-│ │ ├── service/ (lógica de negócio)
-│ │ └── model/ (DTOs)
-│ └── resources/
-└── test/
-└── java/com/addisonglobal/service/TokenServiceImplTest.java
+addison-backend-test/
+│
+├── pom.xml
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+└── src/
+    ├── main/
+    │   ├── java/
+    │   │   └── com/
+    │   │       └── addisonglobal/
+    │   │           ├── AddisonApplication.java
+    │   │           │
+    │   │           ├── controller/
+    │   │           │   └── TokenController.java
+    │   │           │
+    │   │           ├── model/
+    │   │           │   ├── Credentials.java
+    │   │           │   ├── User.java
+    │   │           │   └── UserToken.java
+    │   │           │
+    │   │           └── service/
+    │   │               ├── AuthService.java
+    │   │               ├── TokenService.java
+    │   │               └── TokenServiceImpl.java
+    │   │
+    │   └── resources/
+    │
+    └── test/
+        └── java/
+            └── com/
+                └── addisonglobal/
+                    └── service/
+                        └── TokenServiceImplTest.java
 ```
 ## Requisitos de Negócio Implementados
 
