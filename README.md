@@ -9,7 +9,7 @@
 - **JUnit 5** – testes unitários
 
 ## Estrutura do Projeto
-
+```
 src/
 ├── main/
 │ ├── java/
@@ -21,7 +21,7 @@ src/
 │ └── resources/
 └── test/
 └── java/com/addisonglobal/service/TokenServiceImplTest.java
-
+```
 ## Requisitos de Negócio Implementados
 
 1. **Autenticação**:
